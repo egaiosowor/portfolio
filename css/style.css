@@ -58,6 +58,7 @@ img {
 .btn {
     display: inline-flex;
     max-width: 140px;
+    max-height: 37px;
     padding: 10px 15px;
     font-size: 15px;
     font-weight: 600;
