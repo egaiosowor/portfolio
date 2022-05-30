@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="I develop responsive websites utilizing HTML5,CSS3 and JavaScript ES6">
+    <meta name="keywords" content="HTML5, CSS3, JavaScript ES6 ,GIT, Github">
+    <meta name="author" content="Egai-Osowor">
+    <meta property="og:title" content="Egai-Osowor's Web Portfolio">
+    <meta property="og:description" content="I develop responsive websites utilizing HTML5,CSS3 and JavaScript ES6">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <title>Egai-Osowor | Front-End Developer</title>
+</head>
+<body>
+    <header>
+        <nav class="nav container">
+            <div class="nav__links hide-for-mobile">
+                <a href="index.html">.home()</a>
+                <a href="">.portfolio()</a>
+                <a href="">.contact()</a>
+            </div>
+
+            <div class=" nav__cta hide-for-mobile">
+                <a href="documents\Egai-OsoworWebDeveloperResume.pdf" target="_blank" class="btn btn-solid"><img src="images/download.svg" alt="download icon">Resume</a>
+            </div>
+
+            <button class="js-hamburger hamburger hide-for-desktop" >
+                <span class="hamburger__top"></span>
+                <span class="hamburger__middle"></span>
+                <span class="hamburger__bottom"></span>
+            </button>
+
+            <div class="is-hidden js-menu menu">
+                <div class="menu__links">
+                    <a href="index.html">.home()</a>
+                    <a href="">.portfolio()</a>
+                    <a href="">.contact()</a>
+                </div>
+                
+                <div class="menu__cta">
+                    <a href="documents\Egai-OsoworWebDeveloperResume.pdf" target="_blank" class="btn btn-solid"><img src="images/download.svg" alt="download icon">Resume</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero container">
+            <div class="hero__text">
+                <span class="greeting">Hi There,</span>
+                <h1 class="header">I am Egai-Osowor</h1>
+                <h2 class="sub-header">Front-End <span style="font-family: 'Comic Sans MS', 'Comic Sans', cursive;">&ltDeveloper&gt</span> </h2>
+                <p class="body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi deserunt laudantium perferendis consequatur ipsam suscipit atque enim!</p>
+            </div>
+
+            <div class="btn-group">
+                <a href="documents\Egai-OsoworWebDeveloperResume.pdf" target="_blank" class="btn btn-solid"><img src="images/download.svg" alt="download icon">Resume</a>
+                <a href="" class="btn">Portfolio</a>
+            </div>
+        </section>
+
+        <section class="portfolio container">
+
+            <h2 class="header">Portfolio</h2>
+
+            <div class="holder">
+                <div class="whitespace"></div>
+                <div class="category-header">
+                    <button class="title  js-title js-all-title">All</button>
+                    <button class="title is-focused js-title js-email-title">Email</button>
+                    <button class="title js-title js-web-title">Web</button>
+                </div>
+                <div class="whitespace"></div>
+            </div>
+
+            <div class="portfolio__content">
+                <div class="body  js-body js-all-body">
+                    <div class="project-card-row">
+                        <div  class="project-card-column">
+                            <article class="project-card">
+                                <div class="project-card-image">
+                                    <img src="https://i.ibb.co/yYjFCnj/transactional-email.png" alt="Kookie order summary email">
+                                </div>
+                                <div class="project-card-text">
+                                    <h3 class="name">Transactional email</h3>
+                                    <p class="stack"><strong>Tech Stack: </strong>HTML, CSS, Litmus, GitHub Pages</p>
+                                    <p class="desc">Transactional email for an E-commerce store, Kookie detailing a user's order summary</p>
+                                    <div class="btn-group">
+                                        <a href="https://egaiosowor.github.io/order-summary-email/" target="_blank" class="btn btn-solid">View Demo</a>
+                                        <a href="https://github.com/egaiosowor/order-summary-email" target="_blank" class="btn btn-solid">View Code</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+    
+                        <div class="project-card-column">
+                            <article class="project-card">
+                                <div class="project-card-image reverse">
+                                    <img src="https://i.ibb.co/B6Rgzwf/promotional-email.png" alt="Ulum 3.0 promotional email">
+                                </div>
+                                <div class="project-card-text reverse">
+                                    <h3 class="name">Promotional email</h3>
+                                    <p class="stack"><strong>Tech Stack: </strong>HTML, CSS, Litmus, Adobe XD, GitHub Pages</p>
+                                    <p class="desc">Promotional email for Ulum, a Headset manufacturing company, promoting the latest release in their headset series, the Ulum 3.0.</p>
+                                    <div class="btn-group">
+                                        <a href="https://egaiosowor.github.io/ulum-promotional-email/" target="_blank" class="btn btn-solid">View Demo</a>
+                                        <a href="https://github.com/egaiosowor/ulum-promotional-email" target="_blank" class="btn btn-solid">View Code</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+    
+                        <div class="project-card-column">
+                            <article class="project-card" >
+                                <div class="project-card-image">
+                                    <img src="https://i.ibb.co/Ns0dqHt/women-s-fashion-newsletter.png" alt="ADORA Fashion Newsletter">
+                                </div>
+                                <div class="project-card-text">
+                                    <h3 class="name">Email Newsletter</h3>
+                                    <p class="stack"><strong>Tech Stack: </strong>HTML, CSS, Litmus, Adobe XD, GitHub Pages</p>
+                                    <p class="desc">Summers's around the corner!! <br>A Women's Fashion Newsletter for ADORA, a fashion store</p>
+                                    <div class="btn-group">
+                                        <a  href="https://egaiosowor.github.io/womens-fashion-newsletter/" target="_blank" class="btn btn-solid">View Demo</a>
+                                        <a href="https://github.com/egaiosowor/womens-fashion-newsletter" target="_blank" class="btn btn-solid">View Code</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div> 
+                    <div class="project-card-row">
+                        <div  class="project-card-column">
+                            <article class="project-card">
+                                <div class="project-card-image reverse">
+                                    <img src="https://i.ibb.co/7Nh6N4J/starbucks-homepage.png" alt="Starbucks Homepage">
+                                </div>
+                                <div class="project-card-text reverse">
+                                    <h3 class="name">Starbucks Homepage Clone</h3>
+                                    <p class="stack"><strong>Tech Stack: </strong>HTML, CSS, JavaScript, Git, GitHub Pages</p>
+                                    <p class="desc">Clone of the official Starbucks Homepage using BEM and isACSS Methodologies </p>
+                                    <div class="btn-group">
+                                        <a href="https://egaiosowor.github.io/starbucks-homepage/" target="_blank" class="btn btn-solid">View Demo</a>
+                                        <a href="https://github.com/egaiosowor/starbucks-homepage" target="_blank" class="btn btn-solid">View Code</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+    
+                        <div class="project-card-column">
+                            <article class="project-card">
+                                <div class="project-card-image">
+                                    <img src="https://i.ibb.co/gDQ5n2c/fylo-landingpage.png" alt="Fylo Landing Page">
+                                </div>
+                                <div class="project-card-text">
+                                    <h3 class="name">Landing Page</h3>
+                                    <p class="stack"><strong>Tech Stack: </strong>HTML, CSS, Adobe XD, GitHub Pages</p>
+                                    <p class="desc">Responsive Landing page designed for a SAAS company</p>
+                                    <div class="btn-group">
+                                        <a href="https://egaiosowor.github.io/Fylo-Landing-Page/" target="_blank" class="btn btn-solid">View Demo</a>
+                                        <a href="https://github.com/egaiosowor/Fylo-Landing-Page" target="_blank" class="btn btn-solid">View Code</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+    
+                        <div class="project-card-column">
+                            <article class="project-card" >
+                                <div class="project-card-image reverse">
+                                    <img src="https://i.ibb.co/SwyHLHP/netflix-homepage.png" alt="Netflix Homepage">
+                                </div>
+                                <div class="project-card-text reverse">
+                                    <h3 class="name">Netflix Homepage Clone</h3>
+                                    <p class="stack"><strong>Tech Stack: </strong>HTML, CSS, JavaScript, Git, GitHub Pages</p>
+                                    <p class="desc">Clone of the Netflix Homepage, implementing the mobile-first design principle</p>
+                                    <div class="btn-group">
+                                        <a href="https://egaiosowor.github.io/netflix-homepage/" target="_blank" class="btn btn-solid">View Demo</a>
+                                        <a href="https://github.com/egaiosowor/netflix-homepage" target="_blank" class="btn btn-solid">View Code</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+
+    
+                <div class="body show js-body js-email-body">
+                    <div class="project-card-row">
+                        <div  class="project-card-column">
+                            <article class="project-card">
+                                <div class="project-card-image">
+                                    <img src="https://i.ibb.co/yYjFCnj/transactional-email.png" alt="Kookie order summary email">
+                                </div>
+                                <div class="project-card-text">
+                                    <h3 class="name">Transactional email</h3>
+                                    <p class="stack"><strong>Tech Stack: </strong>HTML, CSS, Litmus, GitHub Pages</p>
+                                    <p class="desc">Transactional email for an E-commerce store, Kookie detailing a user's order summary</p>
+                                    <div class="btn-group">
+                                        <a href="https://egaiosowor.github.io/order-summary-email/" target="_blank" class="btn btn-solid">View Demo</a>
+                                        <a href="https://github.com/egaiosowor/order-summary-email" target="_blank" class="btn btn-solid">View Code</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+    
+                        <div class="project-card-column">
+                            <article class="project-card">
+                                <div class="project-card-image reverse">
+                                    <img src="https://i.ibb.co/B6Rgzwf/promotional-email.png" alt="Ulum 3.0 promotional email">
+                                </div>
+                                <div class="project-card-text reverse">
+                                    <h3 class="name">Promotional email</h3>
+                                    <p class="stack"><strong>Tech Stack: </strong>HTML, CSS, Litmus, Adobe XD, GitHub Pages</p>
+                                    <p class="desc">Promotional email for Ulum, a Headset manufacturing company, promoting the latest release in their headset series, the Ulum 3.0.</p>
+                                    <div class="btn-group">
+                                        <a href="https://egaiosowor.github.io/ulum-promotional-email/" target="_blank" class="btn btn-solid">View Demo</a>
+                                        <a href="https://github.com/egaiosowor/ulum-promotional-email" target="_blank" class="btn btn-solid">View Code</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+    
+                        <div class="project-card-column">
+                            <article class="project-card" >
+                                <div class="project-card-image">
+                                    <img src="https://i.ibb.co/Ns0dqHt/women-s-fashion-newsletter.png" alt="ADORA Fashion Newsletter">
+                                </div>
+                                <div class="project-card-text">
+                                    <h3 class="name">Email Newsletter</h3>
+                                    <p class="stack"><strong>Tech Stack: </strong>HTML, CSS, Litmus, Adobe XD, GitHub Pages</p>
+                                    <p class="desc">Summers's around the corner!! <br>A Women's Fashion Newsletter for ADORA, a fashion store</p>
+                                    <div class="btn-group">
+                                        <a  href="https://egaiosowor.github.io/womens-fashion-newsletter/" target="_blank" class="btn btn-solid">View Demo</a>
+                                        <a href="https://github.com/egaiosowor/womens-fashion-newsletter" target="_blank" class="btn btn-solid">View Code</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="body js-body js-web-body">
+                    <div class="project-card-row">
+                        <div  class="project-card-column">
+                            <article class="project-card">
+                                <div class="project-card-image">
+                                    <img src="https://i.ibb.co/7Nh6N4J/starbucks-homepage.png" alt="Starbucks Homepage">
+                                </div>
+                                <div class="project-card-text">
+                                    <h3 class="name">Starbucks Homepage Clone</h3>
+                                    <p class="stack"><strong>Tech Stack: </strong>HTML, CSS, JavaScript, Git, GitHub Pages</p>
+                                    <p class="desc">Clone of the official Starbucks Homepage using BEM and SMACSS Methodologies </p>
+                                    <div class="btn-group">
+                                        <a href="https://egaiosowor.github.io/starbucks-homepage/" target="_blank" class="btn btn-solid">View Demo</a>
+                                        <a href="https://github.com/egaiosowor/starbucks-homepage" target="_blank" class="btn btn-solid">View Code</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+    
+                        <div class="project-card-column">
+                            <article class="project-card">
+                                <div class="project-card-image reverse">
+                                    <img src="https://i.ibb.co/gDQ5n2c/fylo-landingpage.png" alt="Fylo Landing Page">
+                                </div>
+                                <div class="project-card-text reverse">
+                                    <h3 class="name">Landing Page</h3>
+                                    <p class="stack"><strong>Tech Stack: </strong>HTML, CSS, Adobe XD, GitHub Pages</p>
+                                    <p class="desc">Responsive Landing page designed for a SAAS company</p>
+                                    <div class="btn-group">
+                                        <a href="https://egaiosowor.github.io/Fylo-Landing-Page/" target="_blank" class="btn btn-solid">View Demo</a>
+                                        <a href="https://github.com/egaiosowor/Fylo-Landing-Page" target="_blank" class="btn btn-solid">View Code</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+    
+                        <div class="project-card-column">
+                            <article class="project-card" >
+                                <div class="project-card-image">
+                                    <img src="https://i.ibb.co/SwyHLHP/netflix-homepage.png" alt="Netflix Homepage">
+                                </div>
+                                <div class="project-card-text">
+                                    <h3 class="name">Netflix Homepage Clone</h3>
+                                    <p class="stack"><strong>Tech Stack: </strong>HTML, CSS, JavaScript, Git, GitHub Pages</p>
+                                    <p class="desc">Clone of the Netflix Homepage, implementing the mobile-first design principle</p>
+                                    <div class="btn-group">
+                                        <a href="https://egaiosowor.github.io/netflix-homepage/" target="_blank" class="btn btn-solid">View Demo</a>
+                                        <a href="https://github.com/egaiosowor/netflix-homepage" target="_blank" class="btn btn-solid">View Code</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/hamburger.js"></script>
+    <script src="js/sectionToggle.js"></script>
+</body>
+</html>
