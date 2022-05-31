@@ -6,6 +6,7 @@ const mobileMenu = document.querySelector(".js-menu");
 hamburger.addEventListener("click", ()=>{
     // When the hamburger button is clicked, the "is-toggled" class is added if absent and removed if present
     hamburger.classList.toggle("is-toggled");
+    document.body.classList.toggle("no-scroll");
     // When the hamburger button is clicked, the "is-expanded" class is added if absent and removed if present
-    mobileMenu.classList.toggle("is-expanded");
+    // mobileMenu.classList.toggle("is-expanded");
 })
