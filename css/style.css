@@ -79,7 +79,7 @@ img {
 .back-to-top{
     display: none;
     position: fixed;
-    right: 32px;
+    right: 5px;
     bottom: 32px;
     background-color: transparent;
     border: 0;
