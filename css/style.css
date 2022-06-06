@@ -76,29 +76,24 @@ img {
 }
 
 /* Scroll to top toggle styling */
-.to-top{
+.back-to-top{
     display: none;
     position: fixed;
     right: 32px;
     bottom: 32px;
-    pointer-events: none;
+    background-color: transparent;
+    border: 0;
     transition: all 500ms;
     cursor: pointer;
 }
 
-.to-top-icon{
+.back-to-top-icon{
     padding: 5px;
     width: 40px;
     height: 40px;
     fill: #fff;
     background-color: rgb(0, 0, 0);
     border-radius: 50%;
-}
-
-
-.to-top.is-active{
-    display: block;
-    pointer-events: auto;
 }
 
 
