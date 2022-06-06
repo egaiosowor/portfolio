@@ -242,7 +242,7 @@ img {
 }
 
 .hero{
-    min-height: 50vh;
+    min-height: calc(100vh - 91px);
 }
 
 .hero.container {
