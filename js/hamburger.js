@@ -1,12 +1,19 @@
-const hamburger = document.querySelector(".js-hamburger");
-const mobileMenu = document.querySelector(".js-menu");
+//Get the button:
+mybutton = document.querySelector(".to-top");
 
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
 
-// Click event added to the hamburger button
-hamburger.addEventListener("click", ()=>{
-    // When the hamburger button is clicked, the "is-toggled" class is added if absent and removed if present
-    hamburger.classList.toggle("is-toggled");
-    document.body.classList.toggle("no-scroll");
-    // When the hamburger button is clicked, the "is-expanded" class is added if absent and removed if present
-    // mobileMenu.classList.toggle("is-expanded");
-})
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+} 
