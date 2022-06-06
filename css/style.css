@@ -227,13 +227,13 @@ img {
 .menu__links{
     display: flex;
     flex-direction: column;
-    margin-bottom: 100px;
+    margin-bottom: 170px;
 }
 
 .menu__links a {
     display: inline-block;
     padding: 7px 0;
-    font-size: 22px;
+    font-size: 25px;
     color: #000;
 }
 
@@ -243,6 +243,10 @@ img {
 
 .hero{
     min-height: 50vh;
+}
+
+.hero.container {
+    padding-top: 100px;
 }
 
 .hero__text {
